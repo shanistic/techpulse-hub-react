@@ -65,6 +65,8 @@ const Home = () => {
 
 const MyCarousel = () => (
   <Carousel
+    preventMovementUntilSwipeScrollTolerance={true}
+    swipeScrollTolerance={50}
     autoPlay
     infiniteLoop
     interval={1000}
@@ -74,16 +76,22 @@ const MyCarousel = () => (
   >
     <Box w="full" h={'100vh'}>
       <Image src={img1} />
-      <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>
+      <Heading
+        bgColor={'blackAlpha.600'}
+        color={'white'}
+        {...headingOptions}
+        size={['sm', '2xl']}
+      >
         Watch The Future
       </Heading>
     </Box>
-    <Box w="full" h={'100vh'}>
+    <Box w="full" h={['100vh']}>
       <Image src={img2} />
       <Heading
         bgColor={['blackAlpha.600', 'whiteAlpha.800']}
         color={['white', 'black']}
         {...headingOptions}
+        size={['md', '2xl']}
       >
         Future is Here
       </Heading>
@@ -94,6 +102,7 @@ const MyCarousel = () => (
         bgColor={['blackAlpha.600', 'whiteAlpha.800']}
         color={['white', 'black']}
         {...headingOptions}
+        size={['md', '2xl']}
       >
         {' '}
         Gaming on Console
@@ -105,6 +114,7 @@ const MyCarousel = () => (
         bgColor={['blackAlpha.600', 'whiteAlpha.800']}
         color={['white', 'black']}
         {...headingOptions}
+        size={['md', '2xl']}
       >
         {' '}
         Night Life is Cool
