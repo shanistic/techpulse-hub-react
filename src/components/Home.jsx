@@ -55,13 +55,7 @@ const Home = () => {
             veritatis? Fugiat cupiditate exercitationem delectus deserunt
             facilis ipsam ad quisquam deleniti soluta, sint id, ullam suscipit.
             Eum soluta similique rerum. Incidunt officia voluptatibus
-            accusantium libero quam, repellendus provident. Iste repellendus
-            similique nemo. Provident nam esse consectetur labore optio,
-            voluptatum id quod voluptatibus porro molestiae dicta praesentium
-            obcaecati impedit itaque expedita eos incidunt, laborum rem
-            molestias quis aliquam magni atque voluptas? Iusto cum consectetur
-            ex accusantium? Sapiente id ducimus aliquam exercitationem, fugiat
-            fugit atque est sunt delect.
+            accusantium libero quam.
           </Text>
         </Stack>
       </Container>
@@ -86,19 +80,33 @@ const MyCarousel = () => (
     </Box>
     <Box w="full" h={'100vh'}>
       <Image src={img2} />
-      <Heading bgColor={'whiteAlpha.800'} color={'black'} {...headingOptions}>
+      <Heading
+        bgColor={['blackAlpha.600', 'whiteAlpha.800']}
+        color={['white', 'black']}
+        {...headingOptions}
+      >
         Future is Here
       </Heading>
     </Box>
     <Box w="full" h={'100vh'}>
       <Image src={img3} />
-      <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
+      <Heading
+        bgColor={['blackAlpha.600', 'whiteAlpha.800']}
+        color={['white', 'black']}
+        {...headingOptions}
+      >
+        {' '}
         Gaming on Console
       </Heading>
     </Box>
     <Box w="full" h={'100vh'}>
       <Image src={img4} />
-      <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
+      <Heading
+        bgColor={['blackAlpha.600', 'whiteAlpha.800']}
+        color={['white', 'black']}
+        {...headingOptions}
+      >
+        {' '}
         Night Life is Cool
       </Heading>
     </Box>
