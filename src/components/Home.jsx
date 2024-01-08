@@ -75,7 +75,7 @@ const MyCarousel = () => (
     showArrows={false}
   >
     <Box w="full" h={'100vh'}>
-      <Image src={img1} />
+      <Image src={img1} w={'full'} h={'full'} objectFit={'cover'} />
       <Heading
         bgColor={'blackAlpha.600'}
         color={'white'}
@@ -86,7 +86,7 @@ const MyCarousel = () => (
       </Heading>
     </Box>
     <Box w="full" h={['100vh']}>
-      <Image src={img2} />
+      <Image src={img2} w={'full'} h={'full'} objectFit={'cover'} />
       <Heading
         bgColor={['blackAlpha.600', 'whiteAlpha.800']}
         color={['white', 'black']}
@@ -97,7 +97,7 @@ const MyCarousel = () => (
       </Heading>
     </Box>
     <Box w="full" h={'100vh'}>
-      <Image src={img3} />
+      <Image src={img3} w={'full'} h={'full'} objectFit={'cover'} />
       <Heading
         bgColor={['blackAlpha.600', 'whiteAlpha.800']}
         color={['white', 'black']}
@@ -109,7 +109,7 @@ const MyCarousel = () => (
       </Heading>
     </Box>
     <Box w="full" h={'100vh'}>
-      <Image src={img4} />
+      <Image src={img4} w={'full'} h={'full'} objectFit={'cover'} />
       <Heading
         bgColor={['blackAlpha.600', 'whiteAlpha.800']}
         color={['white', 'black']}
